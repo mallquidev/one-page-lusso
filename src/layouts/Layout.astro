@@ -1,0 +1,28 @@
+---
+const {title} = Astro.props;
+import Header from '../components/Header.astro'
+import Nosotros from '../components/Nosotros.astro'
+import Oferta from '../components/Oferta.astro'
+import Categoria from '../components/Categorias.astro'
+import Banner from '../components/Banner.astro'
+import Productos from '../components/Productos.astro';
+import Footer from '../components/Footer.astro'
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+</head>
+<body>
+    <Header/>
+    <Nosotros/>
+    <Oferta/>
+    <Categoria/>
+    <Banner/>
+    <Productos/>
+    <Footer/>
+</body>
+</html>
